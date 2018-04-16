@@ -1,0 +1,33 @@
+/*index 페이지 화면 구성*/
+
+/*네브바 부분*/
+/*네브바에서 사용되는 웹 폰트를 구글 폰트 서비스를 이용해서 설정*/
+@import
+	url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+.navbar {/*네브바 부분에 대한 설정*/
+	background-color: #fff;
+	border: none;
+	padding-bottom: 10px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	height: 75px;
+	text-transform: capitalize;
+	border-bottom: 1px solid #AAAAAA
+}
+/*화면이 축소될 경우 네브바 부분에 생기는 = 부분에 대한 위치 선정*/
+.navbar-toggle {
+	position: relative;
+	margin-top: 20px;
+	top: 2px;
+}
+/*메뉴 부분에 대한 위치 선정*/
+.navbar-nav {
+	padding-right: 10px;
+	margin-top: 20px;
+	background-color: #fff
+}
+/*메뉴 텍스트 부분 간격 설정*/
+.navbar-nav li {
+	margin: 0 20px;
+}
